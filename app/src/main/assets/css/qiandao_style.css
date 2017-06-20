@@ -1,0 +1,25 @@
+/* */
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top}
+/* 以上可合并 */
+.clear{clear:both}
+.clear:after{clear:both;display:table;content:''}
+.sign-radius{-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px}
+.sign-warp{height:500px;}
+.current-date{margin-left:10px;color:#b25d06;font-size:18px}
+#js-sign{padding-top:5px;padding-left:25px;color:yellowgreen;font-size:30px;cursor:pointer}
+.signin-main{overflow:hidden;width:300px}
+.sign-bottom{float:left;display:block}
+.signin-table{margin-top:2px;margin-right:2px;margin-left:2px;color:#5235ff;background-color:darkgray;font-size:24px}
+.sign-time{float:left;margin-top:1px;margin-right:2px;width:300px;color:#5235ff;background-color:darkgray;font-size:12px}
+td.signin{background-color: hotpink}
+td.fulltime{background-color: lightgreen}
+.change-month{color:peru}
+
+.blink {
+    animation: blink 0.5s step-end infinite;
+}
+@keyframes blink {
+    67% { opacity: 0 }
+}
